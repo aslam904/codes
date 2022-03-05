@@ -1,0 +1,7 @@
+I am aslam 
+I am learning java  Now i am going to append 
+ To continue adding adding data press enter and type ap.write('message') it will append data  Now i am going to append 
+ To continue adding adding data press enter and type ap.write('message') it will append data  Now i am going to append 
+ To continue adding adding data press enter and type ap.write('message') it will append data  Now i am going to append 
+ To continue adding adding data press enter and type ap.write('message') it will append data  Now i am going to append 
+ To continue adding adding data press enter and type ap.write('message') it will append data 
