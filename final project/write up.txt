@@ -1,0 +1,50 @@
+github link : https://github.com/aslam904/2495461-MohamedAslam-O-M-Akash-Java-batch.git
+
+---The main program calls the welcome screen program and from the welcome screen program 
+   the introWS() function is called
+---The next line calls the GetUserInput() the intoWS() shows the welcome message 
+   with the developer's name "MOHAMEDASLAM O M" then calls the show()
+---The Show function displays the options for the user
+---Then the GetUserInput() function comes to play it calls the getOption() function 
+   ask a choice from the user and returns the value to GetUserInput() where 
+   the function checks whether it is not equal to 3 if not equal to 3 it calls the
+   NavigateOption() function with the option as the parameter
+---The option parameter goes into a switch statement and according to the option given by the user 
+   case blocks executes
+
+---If the option is 1  then the ShowFiles() is called which prints the message "list of files" and calls 
+   the PrintFiles() in the DirectoryService class
+---The PrintFiles calls the fillFiles() in the Directory class
+---The fillFiles() adds the files to the directory sorts them and return the files
+---In the PrintFiles() for each file in the directory it returns the name of the file
+
+---After printing the file names returns to Navigate option and calls the Show()
+---The Show function displays the options for the user
+---Then the GetUserInput() function comes to play it calls the getOption() function 
+   ask a choice from the user and returns the value to GetUserInput() where 
+   the function checks whether it is not equal to 3 if not equal to 3 it calls the
+   NavigateOption() function with the option as the parameter
+
+---If the option is 2 it calls the setCurrentScreen() from the ScreenService class and 
+   sets the FileOptionsScreen() as the current screen then calls the getCurrentScreen.show()
+   which displays 4 more options 1)add, 2)delete, 3)search, 4)return to menu
+
+
+---If the user selects the add option it calls the AddFile() where it asks for name which is 
+    returned by the getInputString() then adds the filename to the path specified which is the 
+    directory folder inside the package aslam then calls the show() which will again show the 
+    options
+
+---If user selects the delete option it calls the DeleteFile() where it asks for name which is 
+    returned by the getInputString() It will display a message "You are deleting a file named: the file name"
+    and deletes the file from the folder and displays deleted file with filename
+
+---If user selects the search option it calls the SearchFile() where it asks for name which is 
+   returned by the getInputString() where it searches for the file if found returns Found with file name 
+   else File not found
+
+---If the user return to menu it returns back to the main menu 
+---from there if the user clicks 3 the program ends successfully
+
+
+  
